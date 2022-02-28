@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.intro-image{
+  background-attachment: fixed;
+  background-image: url('../img/Kohv1.jpeg');
+   background-size: cover;
+   height: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.intro-image__link a{
+    background-color: #42747cc7;
+    border: 2px solid #5aaebbcc;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: #d8c9c0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.intro-image__link a:hover{
+transform: scale(1.2);
+}
+
+.intro-text{
+    background-color: #927b71;
+    color: #f4eae9;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+
+}
+.intro-text__textbox h3{
+   font-size: 2rem;
+   text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+.quality-image{
+    background-attachment: fixed;
+    background-image: url('../img/Kohv3.jpeg');
+    background-size: cover;
+    background-position: center;
+     height: 450px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.quality-image__link a{
+    background-color: #a2563ac2;
+    border: 2px solid #d8734f;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: #f1d0c4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out
+}
+.quality-image__link a:hover{
+    transform: scale(1.2);
+    }
+
+    .quality-text{
+        background-color: #4a6a6e;
+        color: #f3c4b3;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:250px;
+        padding: 0 15rem;
+    }
+    .quality-text__textbox h3{
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+     }
+
+     .origin-image{
+        background-attachment: fixed;
+        background-image: url('../img/Kohv2.jpeg');
+        background-size: cover;
+        background-position: center;
+         height: 450px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+    }
+    .origin-image__link a{
+        background-color: #6c986abb;
+        border: 2px solid #334e31;
+        display: inline-block;
+        font-size: 3rem;
+        padding: 1.5rem;
+        color: #a05d38;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 1s ease-in-out
+    }
+    .origin-image__link a:hover{
+        transform: scale(1.2);
+        }
+        .origin-text{
+            background-color: #5f5946;
+            color: #ccc6c0;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:250px;
+            padding: 0 15rem;
+        }
+        .origin-text__textbox h3{
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+         }
+    
+
+     .footer{
+         height: 250px;
+         background-color: #122227;
+         color: rgb(213, 226, 238);
+         padding-top: 2rem;
+         font-size: 1.2rem;
+     }
+     .footer ul li {
+         display: inline-block;
+         margin: 1rem;
+     }
+
+     .footer ul li a{
+         color: rgb(213, 226, 238);
+         text-decoration: none;
+         
+     }
+     .footer ul li:hover{
+        transform: scale(1.2);
+        }
+    
